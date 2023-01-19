@@ -1,0 +1,1124 @@
+#define __MINGW_LC_MESSAGES__ 0x0000000000000010ULL
+#define __DBL_MIN_EXP__ (-1021)
+#define _STL_PAIR_H 1
+#define __cpp_attributes 200809
+#define _GLIBCXX98_USE_C99_MATH 1
+#define _IOSTRG 0x0040
+#define __UINT_LEAST16_MAX__ 0xffff
+#define __MSVCR71_DLL 0x0701
+#define __ATOMIC_ACQUIRE 2
+#define _GLIBCXX_MOVE_BACKWARD3(_Tp,_Up,_Vp) std::move_backward(_Tp, _Up, _Vp)
+#define __glibcxx_requires_cond(_Cond,_Msg) 
+#define __FLT_MIN__ 1.17549435082228750797e-38F
+#define __GCC_IEC_559_COMPLEX 2
+#define __cpp_aggregate_nsdmi 201304
+#define __UINT_LEAST8_TYPE__ unsigned char
+#define NTDDI_LONGHORN NTDDI_VISTA
+#define __SIZEOF_FLOAT80__ 12
+#define _T_WCHAR_ 
+#define _EXT_TYPE_TRAITS 1
+#define INT_LEAST16_MIN INT16_MIN
+#define __W32API_VERSION 5000002L
+#define EIO 5
+#define _GLIBCXX_HAVE_STDALIGN_H 1
+#define _GLIBCXX_NESTED_EXCEPTION_H 1
+#define __Wformat_ms_vsprintf __Wformat_msvcrt_printf(2,0)
+#define _GLIBCXX_HAVE_SLEEP 1
+#define _A_ARCH 0x00000020
+#define _WIN32 1
+#define __INTMAX_C(c) c ## LL
+#define _GLIBCXX_TXN_SAFE_DYN 
+#define __CHAR_BIT__ 8
+#define __LIBIMPL__(__BUILD_HINT__) 
+#define __MINGW32_VERSION 5000002L
+#define __glibcxx_requires_sorted_set_pred(_First1,_Last1,_First2,_Pred) 
+#define EEXIST 17
+#define EACCES 13
+#define _CONTROL 0x0020
+#define __UINT8_MAX__ 0xff
+#define _STRINGFWD_H 1
+#define _GLIBCXX_ATOMICITY_H 1
+#define __i586 1
+#define _GLIBCXX_PSEUDO_VISIBILITY_default 
+#define INT16_C(val) val
+#define __WINT_MAX__ 0xffff
+#define _GLIBCXX_END_NAMESPACE_LDBL 
+#define __MINGW_IMPORT extern __attribute__((__dllimport__))
+#define SUBVERSION_MASK 0x000000FF
+#define INT8_MAX 127
+#define UINT_LEAST64_MAX UINT64_MAX
+#define stderr (&_iob[STDERR_FILENO])
+#define _OUT_TO_MSGBOX 2
+#define LC_ALL 0
+#define __cpp_static_assert 200410
+#define EILSEQ 42
+#define ESPIPE 29
+#define _CONSTRUCTIONAREA_H_ 
+#define _WIN32_IE_IE80 0x0800
+#define _GLIBCXX_USE_WEAK_REF __GXX_WEAK__
+#define EMLINK 31
+#define __AW_SUFFIXED__(__NAME__) __NAME__ ##A
+#define __ORDER_LITTLE_ENDIAN__ 1234
+#define __SIZE_MAX__ 0xffffffffU
+#define _GLIBCXX_CLOCALE 1
+#define __WCHAR_MAX__ 0xffff
+#define _CXXABI_FORCED_H 1
+#define INT16_MAX 32767
+#define _GLIBCXX_ATOMIC_LOCK_FREE_H 1
+#define NTDDI_VERSION_FROM_WIN32_WINNT(ver) _NTDDI_VERSION_FROM_WIN32_WINNT(ver)
+#define _GLIBCXX_USE_LONG_LONG 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+#define __DBL_DENORM_MIN__ double(4.94065645841246544177e-324L)
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1
+#define __GCC_ATOMIC_CHAR_LOCK_FREE 2
+#define __GCC_IEC_559 2
+#define __cpp_lib_transformation_trait_aliases 201304
+#define _GLIBCXX_PSEUDO_VISIBILITY_hidden 
+#define _IOFBF 0x0000
+#define __FLT_EVAL_METHOD__ 2
+#define _GLIBCXX_HAVE_FMODF 1
+#define _GLIBCXX_PSEUDO_VISIBILITY(V) _GLIBCXX_PSEUDO_VISIBILITY_ ## V
+#define _GLIBCXX_HAVE_FMODL 1
+#define _GLIBCXX_HAVE_SYS_STAT_H 1
+#define __cpp_binary_literals 201304
+#define _CPP_TYPE_TRAITS_H 1
+#define _DISABLE_MSVC_PRINTF_QUIRKS ~_MSVC_PRINTF_QUIRKS, 0U
+#define _WINT_T 
+#define _GLIBCXX_SYNCHRONIZATION_HAPPENS_AFTER(A) 
+#define WindowsME _WIN32_WINDOWS_ME
+#define _GLIBCXX_CXX_CONFIG_H 1
+#define _GLIBCXX_PACKAGE_NAME "package-unused"
+#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+#define _STL_ITERATOR_BASE_FUNCS_H 1
+#define __VALIST __builtin_va_list
+#define ENOFILE 2
+#define INT8_MIN (-128)
+#define _EXTERN_C extern "C"
+#define __cpp_variadic_templates 200704
+#define __MSVCR70_DLL 0x0700
+#define _GLIBCXX_USE_C99_COMPLEX_TR1 1
+#define __UINT_FAST64_MAX__ 0xffffffffffffffffULL
+#define __SIG_ATOMIC_TYPE__ int
+#define __MINGW_ATTRIB_CONST __attribute__((__const__))
+#define __DBL_MIN_10_EXP__ (-307)
+#define INT16_MIN (-32768)
+#define ENOTTY 25
+#define __FINITE_MATH_ONLY__ 0
+#define __intptr_t __intptr_t
+#define __cpp_variable_templates 201304
+#define __cpp_lib_integral_constant_callable 201304
+#define UINTMAX_C(val) UINT64_C(val)
+#define __cpp_lib_result_of_sfinae 201210
+#define _OUT_TO_DEFAULT 0
+#define _MSVC_PRINTF_QUIRKS 0x0100U
+#define _GLIBCXX_USE_WCHAR_T 1
+#define EBADF 9
+#define ERANGE 34
+#define __GNUC_PATCHLEVEL__ 0
+#define _GLIBCXX_STD_A std
+#define _GLIBCXX_STD_C std
+#define _GLIBCXX_BEGIN_NAMESPACE_VERSION 
+#define NTDDI_WINXP __NTDDI_WIN51 + __NTDDI_SP0
+#define __UINT_FAST8_MAX__ 0xff
+#define __has_include(STR) __has_include__(STR)
+#define __size_t 
+#define _GLIBCXX_HAVE_FREXPF 1
+#define _GLIBCXX_HAVE_FREXPL 1
+#define INT_FAST8_MAX INT8_MAX
+#define _stdcall __attribute__((__stdcall__))
+#define __DEC64_MAX_EXP__ 385
+#define __Wformat_ms_sprintf __Wformat_msvcrt_printf(2,3)
+#define _WCHAR_T_DEFINED 
+#define _GLIBCXX_PURE __attribute__ ((__pure__))
+#define _GLIBCXX_HAVE_STDINT_H 1
+#define ENOMEM 12
+#define __uintptr_t __uintptr_t
+#define __STDC_CONSTANT_MACROS 
+#define __INT8_C(c) c
+#define WCHAR_MAX 0xffff
+#define _GLIBCXX_HAVE_COSHF 1
+#define _GLIBCXX_HAVE_COSHL 1
+#define __UINT_LEAST64_MAX__ 0xffffffffffffffffULL
+#define _ERRNO_H 
+#define _MKSTEMP_INVOKE 0
+#define WindowsXP _WIN32_WINNT_WINXP
+#define __MSVCR110_DLL 0x1100
+#define ATOMIC_WCHAR_T_LOCK_FREE __GCC_ATOMIC_WCHAR_T_LOCK_FREE
+#define __SHRT_MAX__ 0x7fff
+#define MINGW32_SUPPORTS_MT_EH 1
+#define __LDBL_MAX__ 1.18973149535723176502e+4932L
+#define _GLIBCXX_USE_C99_COMPLEX _GLIBCXX11_USE_C99_COMPLEX
+#define __AW_EXTENDED__(__NAME__) __AW_SUFFIXED__(__NAME__ ##_)
+#define _STREAMBUF_TCC 1
+#define NTDDI_WS03 __NTDDI_WIN52 + __NTDDI_SP0
+#define _BASIC_IOS_H 1
+#define _fileno(__F) ((__F)->_file)
+#define NTDDI_WS08 __NTDDI_WIN6 + __NTDDI_SP1
+#define _GLIBCXX_CPU_DEFINES 1
+#define _GLIBCXX_USE_C99_STDIO _GLIBCXX11_USE_C99_STDIO
+#define _pgmptr (*__p__pgmptr())
+#define __cpp_lib_is_final 201402L
+#define _GLIBCXX_HAVE_STRUCT_DIRENT_D_TYPE 1
+#define NTDDI_VISTASP1 __NTDDI_WIN6 + __NTDDI_SP1
+#define NTDDI_VISTASP2 __NTDDI_WIN6 + __NTDDI_SP2
+#define _BASIC_IOS_TCC 1
+#define __Wformat_fprintf __Wformat_mingw_printf(2,3)
+#define __UINT_LEAST8_MAX__ 0xff
+#define __GCC_ATOMIC_BOOL_LOCK_FREE 2
+#define _GLIBCXX_SIZE_T_IS_UINT 1
+#define _GLIBCXX_HAVE_ATANF 1
+#define _GLIBCXX_HAVE_ATANL 1
+#define __UINTMAX_TYPE__ long long unsigned int
+#define __CRT_ALIAS __CRT_INLINE __attribute__((__always_inline__))
+#define INT_FAST8_MIN INT8_MIN
+#define _GLIBCXX_OS_DEFINES 
+#define __DEC32_EPSILON__ 1E-6DF
+#define WCHAR_MIN 0
+#define _GLIBCXX_HAVE_SYS_TIME_H 1
+#define _OSTREAM_INSERT_H 1
+#define __UINT32_MAX__ 0xffffffffU
+#define __GXX_EXPERIMENTAL_CXX0X__ 1
+#define _REPORT_ERRMODE 3
+#define _GLIBCXX98_USE_C99_COMPLEX 1
+#define _GLIBCXX_SYMVER 1
+#define __SIZE_T 
+#define _GLIBCXX_FULLY_DYNAMIC_STRING 0
+#define __LDBL_MAX_EXP__ 16384
+#define _GLIBCXX_HAVE_STRTOLD 1
+#define _HEX 0x0080
+#define __glibcxx_assert(_Condition) 
+#define __glibcxx_function_requires(...) 
+#define UINT_FAST16_MAX UINT16_MAX
+#define __WINT_MIN__ 0
+#define _STREAMBUF_ITERATOR_H 1
+#define UINT16_C(val) val
+#define __NTDDI_SP3 0x00000300
+#define _environ (*__p__environ())
+#define _CRTALIAS __CRT_INLINE __attribute__((__always_inline__))
+#define EXIT_FAILURE 1
+#define _SIZE_T_DEFINED_ 
+#define __glibcxx_requires_sorted_pred(_First,_Last,_Pred) 
+#define _WIN32_WINNT_LONGHORN 0x0600
+#define __SCHAR_MAX__ 0x7f
+#define __JMPSTUB__(__BUILD_HINT__) 
+#define __WCHAR_MIN__ 0
+#define __AW_ALIAS__(__NAME__) __AW_SUFFIXED__(__NAME__) __NAME__
+#define _wpgmptr (*__p__wpgmptr())
+#define _FUNCTEXCEPT_H 1
+#define __INT64_C(c) c ## LL
+#define _GLIBCXX_CONST __attribute__ ((__const__))
+#define __DBL_DIG__ 15
+#define _GLIBCXX_IOS 1
+#define _EXT_NUMERIC_TRAITS 1
+#define __GCC_ATOMIC_POINTER_LOCK_FREE 2
+#define __MSVCR80_DLL 0x0800
+#define _BLANK 0x0040
+#define _GLIBCXX_HAVE_ATAN2F 1
+#define _GLIBCXX_HAVE_ATAN2L 1
+#define __SIZEOF_INT__ 4
+#define __SIZEOF_POINTER__ 4
+#define OSVER(ver) ((ver) & OSVERSION_MASK)
+#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
+#define WindowsNT4 _WIN32_WINNT_NT4
+#define __USER_LABEL_PREFIX__ _
+#define _GLIBCXX_NAMESPACE_CXX11 __cxx11::
+#define _GLIBCXX_NUM_FACETS 28
+#define _GLIBCXX_HAVE_TANL 1
+#define _GLIBCXX_USE_C99_FENV_TR1 1
+#define UINT8_MAX 0xffU
+#define __STDC_HOSTED__ 1
+#define __WIN32 1
+#define __LDBL_HAS_INFINITY__ 1
+#define _GLIBCXX_DEBUG_ASSERTIONS_H 1
+#define __EXCEPTION__ 
+#define ATOMIC_CHAR16_T_LOCK_FREE __GCC_ATOMIC_CHAR16_T_LOCK_FREE
+#define _WIN32_WINNT_NT4SP3 0x0403
+#define _BSD_SIZE_T_DEFINED_ 
+#define EINTR 4
+#define __W32API_MINOR_VERSION 0
+#define __FLT_EPSILON__ 1.19209289550781250000e-7F
+#define __GXX_WEAK__ 1
+#define __GTHREAD_RECURSIVE_MUTEX_INIT_DEFAULT {-1, 0, 0, 0}
+#define ATOMIC_CHAR_LOCK_FREE __GCC_ATOMIC_CHAR_LOCK_FREE
+#define IE401 _WIN32_IE_IE401
+#define __need___off64_t 
+#define TMP_MAX 32767
+#define _GLIBCXX_BEGIN_NAMESPACE_ALGO 
+#define __Wformat_vsprintf __Wformat_mingw_printf(2,0)
+#define __LDBL_MIN__ 3.36210314311209350626e-4932L
+#define __MINGW_ATTRIB_MALLOC __attribute__((__malloc__))
+#define _SOLARPENAL_H_ 
+#define __DEC32_MAX__ 9.999999E96DF
+#define _WCHAR_T_ 
+#define _GLIBCXX_CXX_ALLOCATOR_H 1
+#define __MINGW32__ 1
+#define EPERM 1
+#define _MAX_EXT 256
+#define _GLIBCXX_USE_C99_STDLIB _GLIBCXX11_USE_C99_STDLIB
+#define _WIN32_WINNT_WS03 0x0502
+#define _WIN32_WINNT_WS08 0x0600
+#define __INT32_MAX__ 0x7fffffff
+#define _GLIBCXX_BEGIN_EXTERN_C extern "C" {
+#define _GLIBCXX_ATOMIC_WORD_H 1
+#define __SIZEOF_LONG__ 4
+#define _IONBF 0x0004
+#define _GLIBCXX_SYMVER_GNU 1
+#define _WIN32_IE_IE401 0x0401
+#define EMFILE 24
+#define __UINT16_C(c) c
+#define _GLIBCXX_HAVE_MODFF 1
+#define _GLIBCXX_HAVE_MODFL 1
+#define __DECIMAL_DIG__ 21
+#define _GLIBCXX_SYSTEM_ERROR 1
+#define _GLIBCXX_HAVE_HYPOTF 1
+#define _GLIBCXX_HAVE_HYPOTL 1
+#define __Wformat_vsnprintf __Wformat_mingw_printf(3,0)
+#define INT_FAST16_MAX INT16_MAX
+#define __glibcxx_requires_heap(_First,_Last) 
+#define _EXPONENT_DIGIT_MASK (_TWO_DIGIT_EXPONENT | _THREE_DIGIT_EXPONENT)
+#define __has_include_next(STR) __has_include_next__(STR)
+#define PTRDIFF_MAX INTPTR_MAX
+#define _GLIBCXX_HAVE_SYMVER_SYMBOL_RENAMING_RUNTIME_SUPPORT 1
+#define __MSVCR90_DLL 0x0900
+#define _NEW_ALLOCATOR_H 1
+#define P_OVERLAY _P_OVERLAY
+#define _GLIBCXX_HAVE_LOCALE_H 1
+#define __LDBL_HAS_QUIET_NAN__ 1
+#define INT64_C(val) val ##LL
+#define _GLIBXX_STREAMBUF 1
+#define _GLIBCXX_HAVE_FABSF 1
+#define _GLIBCXX_HAVE_FABSL 1
+#define _GLIBCXX_STDEXCEPT 1
+#define __glibcxx_requires_heap_pred(_First,_Last,_Pred) 
+#define _GLIBCXX_HAVE_POWF 1
+#define _GLIBCXX_HAVE_POWL 1
+#define L_tmpnam (16)
+#define _METALL_H_ 
+#define ___int_wchar_t_h 
+#define _T_PTRDIFF 
+#define __GNUC__ 6
+#define sys_errlist _sys_errlist
+#define LC_MAX LC_TIME
+#define _cdecl __attribute__((__cdecl__))
+#define __cpp_lib_is_null_pointer 201309
+#define __GXX_RTTI 1
+#define __cpp_delegating_constructors 200604
+#define ATOMIC_LLONG_LOCK_FREE __GCC_ATOMIC_LLONG_LOCK_FREE
+#define _UPPER 0x0001
+#define NTDDI_VERSION NTDDI_VERSION_FROM_WIN32_WINNT(_WIN32_WINNT)
+#define _GLIBCXX_HAVE_STRERROR_R 1
+#define __FLT_HAS_DENORM__ 1
+#define __SIZEOF_LONG_DOUBLE__ 12
+#define INT_FAST16_MIN INT16_MIN
+#define _GLIBCXX_GTHREAD_USE_WEAK 0
+#define ATOMIC_SHORT_LOCK_FREE __GCC_ATOMIC_SHORT_LOCK_FREE
+#define ATOMIC_BOOL_LOCK_FREE __GCC_ATOMIC_BOOL_LOCK_FREE
+#define SEEK_CUR 1
+#define __BIGGEST_ALIGNMENT__ 16
+#define PTRDIFF_MIN INTPTR_MIN
+#define __STDC_UTF_16__ 1
+#define __MINGW32_MINOR_VERSION 0
+#define STDERR_FILENO 2
+#define _HOLZ_H_ 
+#define _GLIBCXX_POSTYPES_H 1
+#define _GLIBCXX_NAMESPACE_LDBL 
+#define _GLIBCXX_HAVE_WCHAR_H 1
+#define _GLIBCXX_HAVE_S_ISREG 1
+#define __Wformat_printf __Wformat_mingw_printf(1,2)
+#define _QUERY_MSVC_PRINTF_QUIRKS ~0U, 0U
+#define _STDIO_H 
+#define _P_NOWAIT 1
+#define _GLIBCXX_PREDEFINED_OPS_H 1
+#define __DBL_MAX__ double(1.79769313486231570815e+308L)
+#define _thiscall __attribute__((__thiscall__))
+#define _GLIBCXX_HAVE_GETS 1
+#define _GLIBCXX_STDIO_SEEK_CUR 1
+#define __glibcxx_requires_irreflexive2(_First,_Last) 
+#define __cpp_raw_strings 200710
+#define __INT_FAST32_MAX__ 0x7fffffff
+#define __WINNT 1
+#define __DBL_HAS_INFINITY__ 1
+#define _GLIBCXX_STDIO_EOF -1
+#define _SPACE 0x0008
+#define LC_MIN LC_ALL
+#define WEOF (wchar_t)(0xffff)
+#define _GLIBCXX_CWCHAR 1
+#define _GLIBCXX_NAMESPACE_LDBL_OR_CXX11 _GLIBCXX_NAMESPACE_CXX11
+#define __INT64_MAX__ 0x7fffffffffffffffLL
+#define __glibcxx_requires_irreflexive(_First,_Last) 
+#define __glibcxx_requires_subscript(_N) 
+#define _GLIBCXX_END_NAMESPACE_ALGO 
+#define __WINNT__ 1
+#define _WIN32_WINNT_NT4E 0x0401
+#define stdin (&_iob[STDIN_FILENO])
+#define WINVER _WIN32_WINNT
+#define SPVERSION_MASK 0x0000FF00
+#define __DEC32_MIN_EXP__ (-94)
+#define __glibcxx_requires_partitioned_upper(_First,_Last,_Value) 
+#define __Wformat_snprintf __Wformat_mingw_printf(3,4)
+#define EPIPE 32
+#define __cpp_lib_allocator_traits_is_always_equal 201411
+#define __Wformat_ms_printf __Wformat_msvcrt_printf(1,2)
+#define _ALPHA 0x0103
+#define __CRT_INLINE inline
+#define _GLIBCXX_PACKAGE__GLIBCXX_VERSION "version-unused"
+#define __W32API_PATCHLEVEL 2
+#define __INT_FAST16_TYPE__ short int
+#define _SIZE_T_DEFINED 
+#define _GLIBCXX_HAVE_GETIPINFO 1
+#define _WCHAR_T_DEFINED_ 
+#define ECHILD 10
+#define _fastcall __attribute__((__fastcall__))
+#define _GLIBCXX_PTRDIFF_T_IS_INT 1
+#define _MKSTEMP_SETMODE(M) __mingw_mkstemp( _MKSTEMP_DEFAULT | (M), NULL )
+#define UINT_LEAST8_MAX UINT8_MAX
+#define __LDBL_HAS_DENORM__ 1
+#define _WIN32_WINDOWS_95 0x0400
+#define _WIN32_WINDOWS_98 0x0410
+#define _GLIBCXX11_USE_C99_STDIO 1
+#define __cplusplus 201402L
+#define __cpp_ref_qualifiers 200710
+#define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+#define __INT_LEAST32_MAX__ 0x7fffffff
+#define _STL_ITERATOR_BASE_TYPES_H 1
+#define _GCC_WRAP_STDINT_H 
+#define __paste(prefix,suffix) prefix ## suffix
+#define __DEC32_MIN__ 1E-95DF
+#define __pentium 1
+#define __DEPRECATED 1
+#define __cpp_rvalue_references 200610
+#define __DBL_MAX_EXP__ 1024
+#define _GLIBCXX_EXTERN_TEMPLATE 1
+#define __DEC128_EPSILON__ 1E-33DL
+#define NTDDI_WINBLUE __NTDDI_WIN63 + __NTDDI_SP0
+#define __ATOMIC_HLE_RELEASE 131072
+#define __WIN32__ 1
+#define __PTRDIFF_MAX__ 0x7fffffff
+#define _GLIBCXX_HAVE_ATTRIBUTE_VISIBILITY 0
+#define Windows2000 _WIN32_WINNT_WIN2K
+#define Windows2003 _WIN32_WINNT_WS03
+#define _MSVCRTVER_H 
+#define _wenviron (*__p__wenviron())
+#define _PTRDIFF_T_DECLARED 
+#define P_DETACH _P_DETACH
+#define ___GLIBCXX_UNUSED_PARAM(x) x
+#define _BASIC_STRING_TCC 1
+#define __ATOMIC_HLE_ACQUIRE 65536
+#define __GNUG__ 6
+#define __LONG_LONG_MAX__ 0x7fffffffffffffffLL
+#define __SIZEOF_SIZE_T__ 4
+#define _WCHAR_H 
+#define __GLIBCXX__ 20161221
+#define _KUNSTSTOFF_H_ 
+#define _WCHAR_T 
+#define __cpp_rvalue_reference 200610
+#define __cpp_nsdmi 200809
+#define _W32API_H 
+#define ENOTEMPTY 41
+#define SIZE_MAX UINTPTR_MAX
+#define __SIZEOF_WINT_T__ 2
+#define WINNTVER(ver) ((ver) >> 16)
+#define _PTR_TRAITS_H 1
+#define _MYHEADER_H_ 
+#define UINT64_C(val) val ##ULL
+#define INT32_MIN (-2147483647 - 1)
+#define __cpp_initializer_lists 200806
+#define _GLIBCXX_HAVE_SYS_PARAM_H 1
+#define _GCC_WCHAR_T 
+#define WINT_MAX 0xffff
+#define _WIN32_IE_IE60SP1 0x0601
+#define _WIN32_IE_IE60SP2 0x0603
+#define UINTPTR_MAX UINT32_MAX
+#define _PTRDIFF_T 
+#define IE55 _WIN32_IE_IE55
+#define IE56 _WIN32_IE_IE56
+#define _MOVE_H 1
+#define __cpp_hex_float 201603
+#define __GCC_HAVE_DWARF2_CFI_ASM 1
+#define _GLIBCXX_MOVE(__val) std::move(__val)
+#define _GLIBCXX_IOSTREAM 1
+#define _GLIBCXX_HOSTED 1
+#define __GXX_ABI_VERSION 1010
+#define IE5a _WIN32_IE_IE50
+#define IE5b _WIN32_IE_IE50
+#define LC_MONETARY 3
+#define UINT_LEAST16_MAX UINT16_MAX
+#define __FLT_MIN_EXP__ (-125)
+#define _MKSTEMP_DEFAULT _O_CREAT | _O_EXCL | _O_RDWR
+#define OSVERSION_MASK 0xFFFF0000
+#define _GLIBCXX_ERROR_CONSTANTS 
+#define UINT32_MAX 0xffffffffUL
+#define __cpp_lib_transparent_operators 201210
+#define WindowsVista _WIN32_WINNT_VISTA
+#define _GLIBCXX_BEGIN_NAMESPACE_CXX11 namespace __cxx11 {
+#define __PTRDIFF_T 
+#define __cpp_lambdas 200907
+#define _GLIBCXX_HAVE_SINHF 1
+#define _GLIBCXX_HAVE_SINHL 1
+#define _LOCALE_H 
+#define __INT_FAST64_TYPE__ long long int
+#define _A_SUBDIR 0x00000010
+#define _ISTREAM_TCC 1
+#define _GLIBCXX_HAVE_SQRTF 1
+#define _GLIBCXX_HAVE_SQRTL 1
+#define fileno(__F) ((__F)->_file)
+#define _WIN32_WINDOWS_ME 0x0490
+#define __cpp_lib_allocator_is_always_equal 201411
+#define __DBL_MIN__ double(2.22507385850720138309e-308L)
+#define MAX_PATH (260)
+#define _GLIBCXX14_CONSTEXPR constexpr
+#define __cpp_lib_string_udls 201304
+#define __FLT_MIN_10_EXP__ (-37)
+#define _P_tmpdir "\\"
+#define OLD_P_OVERLAY _OLD_P_OVERLAY
+#define EISDIR 21
+#define _GLIBCXX_HAVE_STRINGS_H 1
+#define __DECIMAL_BID_FORMAT__ 1
+#define __small char
+#define __struct_stat_defined 
+#define _GLIBCXX_USE_C99_INTTYPES_WCHAR_T_TR1 1
+#define _GLIBCXX_USE_DEPRECATED 1
+#define LC_COLLATE 1
+#define INT_LEAST8_MAX INT8_MAX
+#define _GLIBCXX_DEBUG_ONLY(_Statement) ;
+#define __GXX_TYPEINFO_EQUALITY_INLINE 0
+#define _GLIBCXX_PACKAGE_URL ""
+#define _GLIBCXX_NUM_UNICODE_FACETS 2
+#define _P_NOWAITO 3
+#define _IOREAD 1
+#define __DEC128_MIN__ 1E-6143DL
+#define _GLIBCXX_ATOMIC_BUILTINS 1
+#define __REGISTER_PREFIX__ 
+#define __UINT16_MAX__ 0xffff
+#define __glibcxx_requires_sorted_set(_First1,_Last1,_First2) 
+#define __DBL_HAS_DENORM__ 1
+#define _IOMYBUF 0x0008
+#define __cdecl __attribute__((__cdecl__))
+#define __glibcxx_requires_non_empty_range(_First,_Last) 
+#define NTDDI_WINXPSP2 __NTDDI_WIN51 + __NTDDI_SP2
+#define _EXT_ALLOC_TRAITS_H 1
+#define __UINT8_TYPE__ unsigned char
+#define _GLIBCXX_ABI_TAG_CXX11 __attribute ((__abi_tag__ ("cxx11")))
+#define _GLIBCXX_HAVE_ISWBLANK 1
+#define __NO_INLINE__ 1
+#define __NTDDI_WIN51 0x05010000
+#define __NTDDI_WIN52 0x05020000
+#define __NTDDI_WIN61 0x06010000
+#define __NTDDI_WIN62 0x06020000
+#define __NTDDI_WIN63 0x06030000
+#define __i386 1
+#define __MINGW_ATTRIB_PURE __attribute__((__pure__))
+#define __FLT_MANT_DIG__ 24
+#define __CRT_GLOB_USE_SINGLE_QUOTE__ 0x0010
+#define _GLIBCXX_HAVE_COMPLEX_H 1
+#define INT_LEAST8_MIN INT8_MIN
+#define __i586__ 1
+#define __VERSION__ "6.3.0"
+#define _GLIBCXX11_USE_C99_STDLIB 1
+#define _GLIBCXX_HAVE_INT64_T 1
+#define _GLIBCXX_USE_CONSTEXPR constexpr
+#define __UINT64_C(c) c ## ULL
+#define _PTRDIFF_T_ 
+#define _EMULATE_GLIBC 1
+#define _GLIBCXX_HAVE_TANHF 1
+#define _GLIBCXX_HAVE_TANHL 1
+#define __Wformat_sprintf __Wformat_mingw_printf(2,3)
+#define __cpp_unicode_characters 200704
+#define _GLIBCXX_USE_DECIMAL_FLOAT 1
+#define __cpp_lib_make_reverse_iterator 201402
+#define __NTDDI_WIN6 0x06000000
+#define IE501 _WIN32_IE_IE501
+#define _GLIBCXX_HAVE_ENOSPC 1
+#define _INITIALIZER_LIST 
+#define NTDDI_WIN6 NTDDI_VISTA
+#define NTDDI_WIN7 __NTDDI_WIN61 + __NTDDI_SP0
+#define NTDDI_WIN8 __NTDDI_WIN62 + __NTDDI_SP0
+#define INT_LEAST32_MIN INT32_MIN
+#define __NTDDI_SP0 0x00000000
+#define __NTDDI_SP1 0x00000100
+#define __NTDDI_SP2 0x00000200
+#define _GLIBCXX_PACKAGE_BUGREPORT ""
+#define __NTDDI_SP4 0x00000400
+#define __INT_WCHAR_T_H 
+#define ATOMIC_CHAR32_T_LOCK_FREE __GCC_ATOMIC_CHAR32_T_LOCK_FREE
+#define __int16 short
+#define __cpp_decltype_auto 201304
+#define __cpp_lib_robust_nonmodifying_seq_ops 201304
+#define _GLIBCXX_THROW(_EXC) 
+#define _GLIBCXX_HAS_NESTED_TYPE(_NTYPE) template<typename _Tp, typename = __void_t<>> struct __has_ ##_NTYPE : false_type { }; template<typename _Tp> struct __has_ ##_NTYPE<_Tp, __void_t<typename _Tp::_NTYPE>> : true_type { };
+#define __catch(X) catch(X)
+#define __CRT_GLOB_USE_MINGW__ 0x0002
+#define _LOWER 0x0002
+#define __GCC_ATOMIC_INT_LOCK_FREE 2
+#define _MAX_PATH MAX_PATH
+#define _T_PTRDIFF_ 
+#define _GLIBCXX_USE_NOEXCEPT noexcept
+#define __int32 long
+#define P_WAIT _P_WAIT
+#define __wargv (*__p___wargv())
+#define NTDDI_WIN2KSP1 __NTDDI_WIN5 + __NTDDI_SP1
+#define NTDDI_WIN2KSP2 __NTDDI_WIN5 + __NTDDI_SP2
+#define NTDDI_WIN2KSP3 __NTDDI_WIN5 + __NTDDI_SP3
+#define NTDDI_WIN2KSP4 __NTDDI_WIN5 + __NTDDI_SP4
+#define _GLIBCXX_BEGIN_NAMESPACE_CONTAINER 
+#define NTDDI_WINXPSP1 __NTDDI_WIN51 + __NTDDI_SP1
+#define NTDDI_WINXPSP3 __NTDDI_WIN51 + __NTDDI_SP3
+#define _GLIBCXX_HAVE_HYPOT 1
+#define _NTDDI_VERSION_FROM_WIN32_WINNT(ver) ver ##0000
+#define NTDDI_VISTA __NTDDI_WIN6 + __NTDDI_SP0
+#define _X86_ 1
+#define _GLIBCXX_HAVE_EPERM 1
+#define __int64 long long
+#define _CRTIMP 
+#define _WIN32_WINNT_WIN2K 0x0500
+#define _WIN32_WINNT _WIN32_WINNT_WIN2K
+#define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define _A_NORMAL 0x00000000
+#define _WIN32_IE_IE501 0x0501
+#define __SIZE_T__ 
+#define _WIN32_IE_IE30 0x0300
+#define SIG_ATOMIC_MAX INTPTR_MAX
+#define _WIN32_IE_IE40 0x0400
+#define __glibcxx_requires_string_len(_String,_Len) 
+#define _SYS_SIZE_T_H 
+#define _GLIBCXX_HAVE_TGMATH_H 1
+#define _GLIBCXX11_USE_C99_COMPLEX 1
+#define INT32_MAX 2147483647
+#define _WIN32_IE_IE50 0x0500
+#define _WIN32_IE_IE55 0x0550
+#define _WIN32_IE_IE56 0x0560
+#define __MINGW_H 
+#define __MSVCRT_VERSION__ __MSVCR60_DLL
+#define _WIN32_IE_IE60 0x0600
+#define _OUT_TO_STDERR 1
+#define _P_WAIT 0
+#define _WIN32_IE_IE70 0x0700
+#define _GLIBCXX_NOEXCEPT noexcept
+#define __glibcxx_requires_partitioned_lower(_First,_Last,_Value) 
+#define _STL_ALGOBASE_H 1
+#define _GLIBCXX_WEAK_DEFINITION 
+#define _GLIBCXX_WRITE_MEM_BARRIER __atomic_thread_fence (__ATOMIC_RELEASE)
+#define _GLIBCXX_NUM_CATEGORIES 0
+#define _GLIBCXX_USE_C99_INTTYPES_TR1 1
+#define __INT32_C(c) c
+#define __DEC64_EPSILON__ 1E-15DD
+#define __ORDER_PDP_ENDIAN__ 3412
+#define __DEC128_MIN_EXP__ (-6142)
+#define __code_model_32__ 1
+#define __INT_FAST32_TYPE__ int
+#define _GLIBCXX_BEGIN_NAMESPACE_LDBL_OR_CXX11 _GLIBCXX_BEGIN_NAMESPACE_CXX11
+#define __MINGW_ATTRIB_NONNULL(arg) __attribute__((__nonnull__(arg)))
+#define UINT64_MAX 0xffffffffffffffffULL
+#define LC_TIME 5
+#define _A_VOLID 0x00000008
+#define EINVAL 22
+#define _GLIBCXX_USE_C99_MATH_TR1 1
+#define _GLIBCXX_USE_C99_MATH _GLIBCXX11_USE_C99_MATH
+#define SIG_ATOMIC_MIN INTPTR_MIN
+#define __UINT_LEAST16_TYPE__ short unsigned int
+#define STDC_HEADERS 1
+#define RAND_MAX 0x7FFF
+#define EDOM 33
+#define __MSVCR100_DLL 0x1000
+#define _A_SYSTEM 0x00000004
+#define _CHAR_TRAITS_H 1
+#define _GLIBCXX_HAVE_STRING_H 1
+#define _MINGW32_SOURCE_EXTENDED 1
+#define __INT16_MAX__ 0x7fff
+#define _GLIBCXX_CCTYPE 1
+#define _BSD_SIZE_T_ 
+#define __i386__ 1
+#define __UNUSED_PARAM(x) 
+#define _GLIBCXX_MOVE3(_Tp,_Up,_Vp) std::move(_Tp, _Up, _Vp)
+#define __Wformat_ms_vprintf __Wformat_msvcrt_printf(1,0)
+#define __cpp_rtti 199711
+#define __SIZE_TYPE__ unsigned int
+#define __UINT64_MAX__ 0xffffffffffffffffULL
+#define _SIZE_T_DECLARED 
+#define __Wformat_msvcrt_printf(F,A) __attribute__((__format__(__ms_printf__,F,A)))
+#define __INT8_TYPE__ signed char
+#define _ALLOCATOR_H 1
+#define _IORW 0x0080
+#define LC_NUMERIC 4
+#define __cpp_digit_separators 201309
+#define _OLD_P_OVERLAY _P_OVERLAY
+#define __GCC_ASM_FLAG_OUTPUTS__ 1
+#define _DIGIT 0x0004
+#define ATOMIC_INT_LOCK_FREE __GCC_ATOMIC_INT_LOCK_FREE
+#define _GLIBCXX_DEBUG_MACRO_SWITCH_H 1
+#define _STL_FUNCTION_H 1
+#define _GLIBCXX_HAVE_MBSTATE_T 1
+#define GCC_GTHR_WIN32_H 
+#define __FLT_RADIX__ 2
+#define _LOCALE_CLASSES_H 1
+#define __INT_LEAST16_TYPE__ short int
+#define __LDBL_EPSILON__ 1.08420217248550443401e-19L
+#define INTPTR_MAX INT32_MAX
+#define __UINTMAX_C(c) c ## ULL
+#define _POSIX_C_SOURCE 200809L
+#define _GLIBCXX_HAVE_DIRENT_H 1
+#define _LOCALE_CLASSES_TCC 1
+#define _EXCEPTION_PTR_H 
+#define __SIG_ATOMIC_MAX__ 0x7fffffff
+#define INT_LEAST64_MAX INT64_MAX
+#define _GLIBCXX_X86_RDRAND 1
+#define _LOCALE_FACETS_H 1
+#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+#define __cpp_sized_deallocation 201309
+#define _GLIBCXX_USE_DUAL_ABI 1
+#define __SIZEOF_PTRDIFF_T__ 4
+#define SEEK_SET 0
+#define __pentium__ 1
+#define _GLIBCXX_CSTDIO 1
+#define _GLIBCXX_VISIBILITY(V) _GLIBCXX_PSEUDO_VISIBILITY(V)
+#define NOMINMAX 1
+#define _wcscmpi _wcsicmp
+#define _GLIBCXX_HAVE_COSF 1
+#define _GLIBCXX_HAVE_COSL 1
+#define _GLIBCXX_USE_FLOAT128 1
+#define _GLIBCXX_HAVE_UTIME_H 1
+#define __hyper long long
+#define _END_C_DECLS }
+#define _GLIBCXX_END_NAMESPACE_VERSION 
+#define _WIN32_WINNT_WIN6 0x0600
+#define _WIN32_WINNT_WIN7 0x0601
+#define _WIN32_WINNT_WIN8 0x0602
+#define INTPTR_MIN INT32_MIN
+#define INT8_C(val) val
+#define __glibcxx_requires_valid_range(_First,_Last) 
+#define _BASIC_STRING_H 1
+#define EBUSY 16
+#define _EXCEPTION_DEFINES_H 1
+#define _SIZE_T_ 
+#define _M_IX86 500
+#define _MAX_DRIVE (3)
+#define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+#define UINT_FAST32_MAX UINT32_MAX
+#define _GLIBCXX_SYNCHRONIZATION_HAPPENS_BEFORE(A) 
+#define _GLIBCXX_HAVE_DLFCN_H 1
+#define _WCHAR_T_H 
+#define ENODEV 19
+#define MKSTEMP_SETMODE(M) __mingw_mkstemp( _MKSTEMP_DEFAULT | (M), NULL )
+#define _GLIBCXX_END_EXTERN_C }
+#define __MSVCRT__ 1
+#define __INT_FAST16_MAX__ 0x7fff
+#define _GLIBCXX_HAVE_VSWSCANF 1
+#define __CRT_GLOB_USE_MSVCRT__ 0x0001
+#define _GLIBCXX_END_NAMESPACE_CXX11 }
+#define INT_LEAST64_MIN INT64_MIN
+#define EROFS 30
+#define __UINT_FAST32_MAX__ 0xffffffffU
+#define __Wformat_ms_vfprintf __Wformat_msvcrt_printf(2,0)
+#define __UINT_LEAST64_TYPE__ long long unsigned int
+#define __FLT_HAS_QUIET_NAN__ 1
+#define __CRT_GLOB_ESCAPE_CHAR__ (char)(127)
+#define UINTMAX_MAX UINT64_MAX
+#define INT32_C(val) val
+#define __FLT_MAX_10_EXP__ 38
+#define _GLIBCXX_HAVE_FLOORF 1
+#define __GTHREAD_ONCE_INIT {0, -1}
+#define _GLIBCXX_HAVE_FLOORL 1
+#define __LONG_MAX__ 0x7fffffffL
+#define __argc (*__p___argc())
+#define __WCHAR_T__ 
+#define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+#define _GLIBCXX_NORETURN __attribute__ ((__noreturn__))
+#define __FLT_HAS_INFINITY__ 1
+#define _BSD_PTRDIFF_T_ 
+#define __cpp_unicode_literals 200710
+#define _GLIBCXX_CDTOR_CALLABI __thiscall
+#define __UINT_FAST16_TYPE__ short unsigned int
+#define __DEC64_MAX__ 9.999999999999999E384DD
+#define _MEMORYFWD_H 1
+#define NULL __null
+#define __CHAR16_TYPE__ short unsigned int
+#define LT_OBJDIR ".libs/"
+#define __PRAGMA_REDEFINE_EXTNAME 1
+#define E2BIG 7
+#define _GLIBCXX_HAVE_SINF 1
+#define ATOMIC_POINTER_LOCK_FREE __GCC_ATOMIC_POINTER_LOCK_FREE
+#define _GLIBCXX_HAVE_SINL 1
+#define _STRINGS_H 
+#define _OSTREAM_TCC 1
+#define __SEG_FS 1
+#define __INT_LEAST16_MAX__ 0x7fff
+#define __DEC64_MANT_DIG__ 16
+#define __argv (*__p___argv())
+#define EDEADLK 36
+#define __UINT_LEAST32_MAX__ 0xffffffffU
+#define _GLIBCXX_MANGLE_SIZE_T j
+#define __SEG_GS 1
+#define __GCC_ATOMIC_LONG_LOCK_FREE 2
+#define _SDKDDKVER_H 
+#define _WIN32_WINNT_WINXP 0x0501
+#define __INT_LEAST64_TYPE__ long long int
+#define INT64_MAX 9223372036854775807LL
+#define _GLIBCXX_HAVE_FCNTL_H 1
+#define __INT16_TYPE__ short int
+#define __INT_LEAST8_TYPE__ signed char
+#define __cpp_lib_incomplete_container_elements 201505
+#define _doserrno (*__doserrno())
+#define __NTDDI_WIN5 0x05000000
+#define _BUILDING_H_ 
+#define ENOTDIR 20
+#define __DEC32_MAX_EXP__ 97
+#define __glibcxx_requires_irreflexive_pred2(_First,_Last,_Pred) 
+#define __INT_FAST8_MAX__ 0x7f
+#define __INTPTR_MAX__ 0x7fffffff
+#define _SYS_TYPES_H 
+#define _GLIBCXX_GCC_GTHR_H 
+#define _GLIBCXX_NUM_CXX11_FACETS 16
+#define _GLIBCXX_DEBUG_ASSERT(_Condition) 
+#define ENXIO 6
+#define _GLIBCXX_HAVE_ISNAN 1
+#define __GXX_MERGED_TYPEINFO_NAMES 0
+#define __cpp_range_based_for 200907
+#define _CAPYCITYSIM_H_ 
+#define _GLIBCXX_HAVE_WCTYPE_H 1
+#define sys_nerr _sys_nerr
+#define _IOLBF 0x0040
+#define __MINGW_LC_EXTENSIONS__ 0x0000000000000050ULL
+#define _GLIBCXX_HAVE_LDEXPF 1
+#define __stdcall __attribute__((__stdcall__))
+#define __try try
+#define _GLIBCXX_ISTREAM 1
+#define _GLIBCXX_USE_TMPNAM 1
+#define P_NOWAIT _P_NOWAIT
+#define __EXCEPTIONS 1
+#define INT64_MIN (-9223372036854775807LL - 1)
+#define __LDBL_MANT_DIG__ 64
+#define ENAMETOOLONG 38
+#define _GLIBCXX_HAVE_INTTYPES_H 1
+#define __DBL_HAS_QUIET_NAN__ 1
+#define _GLIBCXX_CSTDLIB 1
+#define _STRING_H 
+#define __GNUC_VA_LIST 
+#define _GLIBCXX_HAVE_BROKEN_VSWPRINTF 1
+#define __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+#define __GTHREAD_MUTEX_INIT_DEFAULT {-1, 0}
+#define _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(_Iter) std::__make_move_if_noexcept_iterator(_Iter)
+#define FILENAME_MAX (260)
+#define __cpp_return_type_deduction 201304
+#define _GLIBCXX_HAVE_USLEEP 1
+#define _IOS_BASE_H 1
+#define __INTPTR_TYPE__ int
+#define __UINT16_TYPE__ short unsigned int
+#define __WCHAR_TYPE__ short unsigned int
+#define __SIZEOF_FLOAT__ 4
+#define _GLIBCXX_PACKAGE_TARNAME "libstdc++"
+#define __AW__WCHAR_T__(__TEXT__) __AW_STRING_A__(L ##__TEXT__)
+#define __Wformat_ms_fprintf __Wformat_msvcrt_printf(2,3)
+#define __UINTPTR_MAX__ 0xffffffffU
+#define _GLIBCXX_IOSFWD 1
+#define __DEC64_MIN_EXP__ (-382)
+#define __W32API_MAJOR_VERSION 5
+#define _GLIBCXX_USE_CXX11_ABI 1
+#define __cpp_decltype 200707
+#define _GLIBCXX_HAVE_WCSTOF 1
+#define _GLIBCXX_DEFAULT_ABI_TAG _GLIBCXX_ABI_TAG_CXX11
+#define __INT_FAST64_MAX__ 0x7fffffffffffffffLL
+#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+#define BUFSIZ 512
+#define __FLT_DIG__ 6
+#define INT_FAST32_MAX INT32_MAX
+#define _GLIBCXX_CONSTEXPR constexpr
+#define _GLIBCXX_FORWARD(_Tp,__val) std::forward<_Tp>(__val)
+#define _WCHAR_T_DECLARED 
+#define __UINT_FAST64_TYPE__ long long unsigned int
+#define __glibcxx_class_requires(_a,_b) 
+#define __need_ssize_t 
+#define EXIT_SUCCESS 0
+#define _GLIBCXX_HAVE_STRTOF 1
+#define STDIN_FILENO 0
+#define UINT_FAST8_MAX UINT8_MAX
+#define _GLIBCXX_HAVE_MEMORY_H 1
+#define __INT_MAX__ 0x7fffffff
+#define __glibcxx_requires_partitioned_upper_pred(_First,_Last,_Value,_Pred) 
+#define _GLIBCXX_HAVE_INT64_T_LONG_LONG 1
+#define __MSVCR120_DLL 0x1200
+#define WIN32 1
+#define _LOCALE_FWD_H 1
+#define _P_OVERLAY 2
+#define _T_SIZE_ 
+#define __AW_STRING_A__(__TEXT__) __TEXT__
+#define _TWO_DIGIT_EXPONENT 1
+#define INT_LEAST32_MAX INT32_MAX
+#define __INT64_TYPE__ long long int
+#define _GLIBCXX_STRING 1
+#define __FLT_MAX_EXP__ 128
+#define IE601 _WIN32_IE_IE60SP1
+#define IE602 _WIN32_IE_IE60SP2
+#define SUBVER(ver) ((ver) & SUBVERSION_MASK)
+#define EXDEV 18
+#define UINT32_C(val) val ##U
+#define __DBL_MANT_DIG__ 53
+#define ___int_size_t_h 
+#define _GLIBCXX_END_NAMESPACE_LDBL_OR_CXX11 _GLIBCXX_END_NAMESPACE_CXX11
+#define __cpp_inheriting_constructors 200802
+#define _GLIBCXX_HAVE_FENV_H 1
+#define __AW_ALIAS_EX__(__NAME__) __AW_EXTENDED__(__NAME__) __NAME__
+#define _GLIBCXX_HAVE_STDBOOL_H 1
+#define __SIZEOF_FLOAT128__ 16
+#define __INT_LEAST64_MAX__ 0x7fffffffffffffffLL
+#define _GLIBCXX_DEBUG_PEDASSERT(_Condition) 
+#define UINT_FAST64_MAX UINT64_MAX
+#define _IOWRT 2
+#define INT_FAST32_MIN INT32_MIN
+#define LC_CTYPE 2
+#define __DEC64_MIN__ 1E-383DD
+#define __WINT_TYPE__ short unsigned int
+#define __UINT_LEAST32_TYPE__ unsigned int
+#define __SIZEOF_SHORT__ 2
+#define STDOUT_FILENO 1
+#define _GLIBCXX_CXX_LOCALE_H 1
+#define _GLIBCXX_OSTREAM 1
+#define _CTYPE_H 
+#define _GLIBCXX_CERRNO 1
+#define __LDBL_MIN_EXP__ (-16381)
+#define _GLIBCXX_HAVE_LOGF 1
+#define _GLIBCXX_HAVE_LOGL 1
+#define _GLIBCXX_HAVE_EXPF 1
+#define _GLIBCXX_HAVE_EXPL 1
+#define ENOSPC 28
+#define stdout (&_iob[STDOUT_FILENO])
+#define _GLIBCXX_TXN_SAFE 
+#define _NEW 
+#define ENOEXEC 8
+#define EOF (-1)
+#define __INT_LEAST8_MAX__ 0x7f
+#define __AW_STRING_W__(__TEXT__) __AW__WCHAR_T__(__TEXT__)
+#define _GLIBCXX_HAVE_LOG10F 1
+#define _GLIBCXX_HAVE_LOG10L 1
+#define _GLIBCXX_TYPE_TRAITS 1
+#define _wP_tmpdir L"\\"
+#define __USE_MINGW_PRINTF 0
+#define __WCHAR_UNSIGNED__ 1
+#define _GLIBCXX_RANGE_ACCESS_H 1
+#define __LDBL_MAX_10_EXP__ 4932
+#define _GLIBCXX_HAVE_DOS_BASED_FILESYSTEM 1
+#define __ATOMIC_RELAXED 0
+#define __DBL_EPSILON__ double(2.22044604925031308085e-16L)
+#define __GTHREAD_HIDE_WIN32API 1
+#define __thiscall __attribute__((__thiscall__))
+#define _SIZET_ 
+#define __have_typedef_time_t 1
+#define _LOCALE_FACETS_TCC 1
+#define __UINT8_C(c) c
+#define _GLIBCXX_HAVE_CEILF 1
+#define _GLIBCXX_HAVE_CEILL 1
+#define EFBIG 27
+#define ESRCH 3
+#define __GTHREADS 1
+#define __INT_LEAST32_TYPE__ int
+#define __wchar_t__ 
+#define SEEK_END 2
+#define __SIZEOF_WCHAR_T__ 2
+#define _GLIBCXX_NOTHROW _GLIBCXX_USE_NOEXCEPT
+#define __UINT64_TYPE__ long long unsigned int
+#define _GLIBCXX_USE_C99_WCHAR _GLIBCXX11_USE_C99_WCHAR
+#define _ISOC99_SOURCE 0x03
+#define __MINGW32_PATCHLEVEL 2
+#define ENOLCK 39
+#define ENFILE 23
+#define _STRING_CONVERSIONS_H 1
+#define _WIN32_WINNT_WINBLUE 0x0603
+#define SPVER(ver) (((ver) & SPVERSION_MASK) >> 8)
+#define __USE_MINGW_ANSI_STDIO (__MINGW_FEATURES__ & __MINGW_ANSI_STDIO__)
+#define __MINGW32_MAJOR_VERSION 5
+#define _GLIBCXX_READ_MEM_BARRIER __atomic_thread_fence (__ATOMIC_ACQUIRE)
+#define _GLIBCXX_USE_C99_STDINT_TR1 1
+#define _GLIBCXX_HAVE_FPCLASS 1
+#define MB_CUR_MAX __mb_cur_max
+#define ENOSYS 40
+#define __Wformat_mingw_printf(F,A) __attribute__((__format__(__mingw_printf__,F,A)))
+#define _MAX_FNAME 256
+#define __MINGW_LC_ENVVARS__ 0x0000000000000040ULL
+#define _GLIBCXX_STDIO_SEEK_END 2
+#define __INT_FAST8_TYPE__ signed char
+#define __fastcall __attribute__((__fastcall__))
+#define __MINGW_GNUC_PREREQ(major,minor) (__GNUC__ > (major) || (__GNUC__ == (major) && __GNUC_MINOR__ >= (minor)))
+#define _GLIBCXX_HAVE_TANF 1
+#define _IOEOF 0x0010
+#define __CRT_GLOB_BRACKET_GROUPS__ 0x0020
+#define _GLIBCXX_HAVE_STDLIB_H 1
+#define __glibcxx_requires_sorted(_First,_Last) 
+#define __MINGW_ANSI_STDIO__ 0x0000000000000001ULL
+#define __GNUC_STDC_INLINE__ 1
+#define __GTHR_W32_InterlockedCompareExchange InterlockedCompareExchange
+#define P_tmpdir _P_tmpdir
+#define NTDDI_WIN6SP1 NTDDI_VISTASP1
+#define NTDDI_WIN6SP2 NTDDI_VISTASP2
+#define _GLIBCXX_DEPRECATED __attribute__ ((__deprecated__))
+#define INTMAX_MAX INT64_MAX
+#define ATOMIC_LONG_LOCK_FREE __GCC_ATOMIC_LONG_LOCK_FREE
+#define IE3 _WIN32_IE_IE30
+#define IE4 _WIN32_IE_IE40
+#define IE5 _WIN32_IE_IE50
+#define IE6 _WIN32_IE_IE60
+#define IE7 _WIN32_IE_IE70
+#define __DBL_DECIMAL_DIG__ 17
+#define __STDC_UTF_32__ 1
+#define _IOERR 0x0020
+#define EDEADLOCK 36
+#define __DEC_EVAL_METHOD__ 2
+#define _WCTYPE_H 
+#define _SIZE_T 
+#define _GLIBCXX_USE_GETTIMEOFDAY 1
+#define _BACKWARD_BINDERS_H 1
+#define _GLIBCXX_FAST_MATH 0
+#define __glibcxx_class_requires2(_a,_b,_c) 
+#define __glibcxx_class_requires3(_a,_b,_c,_d) 
+#define __glibcxx_class_requires4(_a,_b,_c,_d,_e) 
+#define FOPEN_MAX (20)
+#define UINT16_MAX 0xffffU
+#define _THREE_DIGIT_EXPONENT 0
+#define __Wformat_vfprintf __Wformat_mingw_printf(2,0)
+#define __glibcxx_requires_string(_String) 
+#define _GLIBCXX_HAVE_LDEXPL 1
+#define environ _environ
+#define _GCC_SIZE_T 
+#define __ORDER_BIG_ENDIAN__ 4321
+#define __cpp_runtime_arrays 198712
+#define __UINT32_C(c) c ## U
+#define __INTMAX_MAX__ 0x7fffffffffffffffLL
+#define __cpp_alias_templates 200704
+#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define _STL_ITERATOR_H 1
+#define _FUNCTIONAL_HASH_H 1
+#define __size_t__ 
+#define WINNT 1
+#define __FLT_DENORM_MIN__ 1.40129846432481707092e-45F
+#define INTMAX_MIN INT64_MIN
+#define _GLIBCXX_HAVE_FINITE 1
+#define __INT8_MAX__ 0x7f
+#define _PUNCT 0x0010
+#define __UINT_FAST32_TYPE__ unsigned int
+#define __MINGW_NOTHROW __attribute__((__nothrow__))
+#define _GLIBCXX_HAVE_FLOAT_H 1
+#define __CHAR32_TYPE__ unsigned int
+#define __cpp_lib_void_t 201411
+#define _GTHREAD_USE_MUTEX_INIT_FUNC 1
+#define _CONCEPT_CHECK_H 1
+#define __FLT_MAX__ 3.40282346638528859812e+38F
+#define _GLIBCXX_HAVE_VFWSCANF 1
+#define _GLIBCXX_USE_ALLOCATOR_NEW 1
+#define WINT_MIN 0
+#define INT_FAST64_MAX INT64_MAX
+#define UINT_LEAST32_MAX UINT32_MAX
+#define _wfinddata64_t __wfinddata64_t
+#define __cpp_constexpr 201304
+#define __int8 char
+#define CONST_CAST2(TOTYPE,FROMTYPE,X) ((__extension__(union {FROMTYPE _q; TOTYPE _nq;})(X))._nq)
+#define _GLIBCXX_HAVE_SYS_TYPES_H 1
+#define __valueless(token) ((token - 0) == 0) && (__paste(token,10) == 10)
+#define __INT32_TYPE__ int
+#define __SIZEOF_DOUBLE__ 8
+#define __cpp_exceptions 199711
+#define __MSVCR61_DLL 0x0601
+#define _WIN32_WINNT_NT4 0x0400
+#define _MAX_DIR 256
+#define __INTMAX_TYPE__ long long int
+#define _GLIBCXX11_USE_C99_MATH 1
+#define EFAULT 14
+#define i386 1
+#define _INTEGRAL_MAX_BITS 64
+#define __MINGW_ATTRIB_NORETURN __attribute__((__noreturn__))
+#define __DEC128_MAX_EXP__ 6145
+#define _BEGIN_C_DECLS extern "C" {
+#define _T_SIZE 
+#define UINT8_C(val) val
+#define _GLIBCXX_NO_IOCTL 1
+#define _GLIBCXX_HAVE_ACOSF 1
+#define _GLIBCXX_HAVE_ACOSL 1
+#define __ATOMIC_CONSUME 1
+#define _GLIBCXX_CSTDINT 1
+#define __GNUC_MINOR__ 3
+#define __UINTMAX_MAX__ 0xffffffffffffffffULL
+#define __DEC32_MANT_DIG__ 7
+#define _GLIBCXX_MAKE_MOVE_ITERATOR(_Iter) std::make_move_iterator(_Iter)
+#define INTMAX_C(val) INT64_C(val)
+#define __DECLSPEC_SUPPORTED 
+#define INT_FAST64_MIN INT64_MIN
+#define EAGAIN 11
+#define _GTHREAD_USE_MUTEX_TIMEDLOCK 1
+#define __GTHREAD_RECURSIVE_MUTEX_INIT_FUNCTION __gthread_recursive_mutex_init_function
+#define _STDINT_H 
+#define __DBL_MAX_10_EXP__ 308
+#define __LDBL_DENORM_MIN__ 3.64519953188247460253e-4951L
+#define _HASH_BYTES_H 1
+#define __INT16_C(c) c
+#define __cpp_generic_lambdas 201304
+#define __STDC__ 1
+#define _GLIBCXX_HAVE_VWSCANF 1
+#define NTDDI_WS03SP1 __NTDDI_WIN52 + __NTDDI_SP1
+#define NTDDI_WS03SP2 __NTDDI_WIN52 + __NTDDI_SP2
+#define __PTRDIFF_TYPE__ int
+#define NTDDI_WIN2K __NTDDI_WIN5 + __NTDDI_SP0
+#define _GLIBCXX_END_NAMESPACE_CONTAINER 
+#define _GLIBCXX_CWCTYPE 1
+#define errno (*_errno())
+#define __cpp_lib_uncaught_exceptions 201411
+#define _GLIBCXX_NOEXCEPT_IF(_COND) noexcept(_COND)
+#define _GLIBCXX_BEGIN_NAMESPACE_LDBL 
+#define __ATOMIC_SEQ_CST 5
+#define ENOENT 2
+#define IE301 _WIN32_IE_IE301
+#define IE302 _WIN32_IE_IE302
+#define __throw_exception_again throw
+#define __UINT32_TYPE__ unsigned int
+#define __STDC_LIMIT_MACROS 
+#define __UINTPTR_TYPE__ unsigned int
+#define _GLIBCXX_INLINE_VERSION 0
+#define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
+#define __DEC128_MANT_DIG__ 34
+#define __LDBL_MIN_10_EXP__ (-4931)
+#define _GLIBCXX_THROW_OR_ABORT(_EXC) (throw (_EXC))
+#define __GTHREAD_MUTEX_INIT_FUNCTION __gthread_mutex_init_function
+#define _A_HIDDEN 0x00000002
+#define __Wformat_vprintf __Wformat_mingw_printf(1,0)
+#define _ENABLE_MSVC_PRINTF_QUIRKS ~0U, _MSVC_PRINTF_QUIRKS
+#define __SIZEOF_LONG_LONG__ 8
+#define _M_IX86_FP 0
+#define _GLIBCXX_VERBOSE 1
+#define _GLIBCXX_HAVE_ASINF 1
+#define __cpp_user_defined_literals 200809
+#define _GLIBCXX_HAVE_ASINL 1
+#define _A_RDONLY 0x00000001
+#define _GCC_PTRDIFF_T 
+#define __need_off_t 
+#define __GCC_ATOMIC_LLONG_LOCK_FREE 2
+#define P_NOWAITO _P_NOWAITO
+#define _WIN32_WINNT_VISTA 0x0600
+#define __LDBL_DIG__ 18
+#define __MINGW_ATTRIB_DEPRECATED __attribute__((__deprecated__))
+#define __FLT_DECIMAL_DIG__ 9
+#define __UINT_FAST16_MAX__ 0xffff
+#define _LEADBYTE 0x8000
+#define __glibcxx_requires_nonempty() 
+#define __glibcxx_requires_irreflexive_pred(_First,_Last,_Pred) 
+#define ___int_ptrdiff_t_h 
+#define __GCC_ATOMIC_SHORT_LOCK_FREE 2
+#define _WIN32_IE_IE301 0x0301
+#define _WIN32_IE_IE302 0x0302
+#define _P_DETACH 4
+#define __MSVCR60_DLL 0x0600
+#define __glibcxx_requires_partitioned_lower_pred(_First,_Last,_Value,_Pred) 
+#define _GLIBCXX11_USE_C99_WCHAR 1
+#define _GLIBCXX_HAVE_ECHILD 1
+#define INT_LEAST16_MAX INT16_MAX
+#define Windows95 _WIN32_WINDOWS_95
+#define Windows98 _WIN32_WINDOWS_98
+#define _GLIBCXX_HAVE_UNISTD_H 1
+#define __UINT_FAST8_TYPE__ unsigned char
+#define __N(msgid) (msgid)
+#define __cpp_init_captures 201304
+#define __ATOMIC_ACQ_REL 4
+#define __WCHAR_T 
+#define __ATOMIC_RELEASE 3
+#define _ALLOC_TRAITS_H 1
+#define __declspec(x) __attribute__((x))
+#define _STDLIB_H 
+#define _GLIBCXX_PACKAGE_STRING "package-unused version-unused"
+#define _T_WCHAR 

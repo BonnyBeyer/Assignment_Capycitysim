@@ -34,9 +34,7 @@
     "**/.vscode/**"
   ],
   "files.associations": {
-    "iostream": "cpp",
-    "random": "cpp",
-    "ostream": "cpp",
-    "string": "cpp"
+    "algorithm": "cpp",
+    "iostream": "cpp"
   }
 }

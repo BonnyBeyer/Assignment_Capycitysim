@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Bonny/OneDrive - Hochschule fur angewandte Wissenschaften Coburg/Desktop/FProg/Cpp",
-      "program": "c:/Users/Bonny/OneDrive - Hochschule fur angewandte Wissenschaften Coburg/Desktop/FProg/Cpp/build/Debug/outDebug",
+      "cwd": "c:/Users/Bonny/OneDrive - Hochschule fur angewandte Wissenschaften Coburg/Desktop/FProg/Capcity2again",
+      "program": "c:/Users/Bonny/OneDrive - Hochschule fur angewandte Wissenschaften Coburg/Desktop/FProg/Capcity2again/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
