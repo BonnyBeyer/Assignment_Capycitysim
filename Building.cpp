@@ -9,9 +9,9 @@
 int Building::anzahl_b = 0;
 double Building::total = 0;
 
-Building::Building(int l, int w, int *p, ConstructionArea Area)
+Building::Building(int l, int w, int *p, ConstructionArea* Area)
 { 
-    bool possibility = built_posibillity(Area, p, w, l);
+   
 
     Holz *holz = new Holz();
 
@@ -23,31 +23,9 @@ Building::Building(int l, int w, int *p, ConstructionArea Area)
 
     Kunststoff *kunststoff = new Kunststoff();
 
- 
+    leistung=l*w*200000;
 
-    if (possibility == true)
-    {
-        anzahl_b++;
-        length = l;
-        width = w;
-        position = p;
-      
-        for (int i = p[0]; i < length + p[0]; i++)
-        {
-            for (int j = p[1]; j < width + p[1]; j++)
-            {
-                Area.construction_area[i][j] = anzahl_b;
-              
-            }
-         
-        }
 
-       
-    }
-    else
-    {
-        throw std::invalid_argument("building is not possible");
-    }
 }
 
 Building::Building()
@@ -58,7 +36,7 @@ Building::~Building()
 {
 }
 
-bool Building::built_posibillity(ConstructionArea Area, int *p, int w, int l)
+bool Building::built_posibillity(ConstructionArea* Area, int *p, int w, int l)
 {
     
 
@@ -69,7 +47,7 @@ bool Building::built_posibillity(ConstructionArea Area, int *p, int w, int l)
         for (int j = p[1]; j < p[1] + w; j++)
         {
             
-            if (Area.construction_area[i][j] == 0)
+            if (Area->construction_area[i][j] == 0)
                 x = true;
             else
             {
@@ -242,5 +220,32 @@ void Building::insert_material(string key)
     {
         materials[&holz]++;
     }
+}
+
+void Building::set_leistung(int _leistung)
+{
+    leistung = _leistung;
+}
+
+int Building::get_leistung()
+{
+    return leistung;
+}
+
+double Building::get_totalprice()
+{
+
+    map<Material *, int>::iterator itr;
+    Material *material;
+    int count = 0;
+
+    for (itr = materials.begin(); itr != materials.end(); ++itr)
+    {
+        material = itr->first;
+        count = itr->second;
+    }
+
+    totalprice=this->total_price_one_building();
+    return totalprice;
 }
 

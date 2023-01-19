@@ -12,6 +12,7 @@ public:
     int **construction_area;
    
     ConstructionArea(int length, int width);
+    ConstructionArea();
     ~ConstructionArea();
 
     void set_length(int _length);
@@ -26,5 +27,7 @@ public:
     bool removable(int l, int w);
     void print();
     void remove_area(int l, int w);
+
+    string create_id();
 };
 #endif

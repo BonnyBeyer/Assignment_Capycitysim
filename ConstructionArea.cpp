@@ -6,6 +6,9 @@ ConstructionArea::~ConstructionArea()
 {
 }
 
+ConstructionArea::ConstructionArea(){
+
+}
 
 
 ConstructionArea::ConstructionArea(int length, int width)
@@ -126,4 +129,17 @@ bool ConstructionArea::removable(int l, int w)
     }
 
     return x;
+}
+string ConstructionArea::create_id()
+{
+    string id = " ";
+
+    for (int i = 0; i < length; ++i)
+    {
+        for (int j = 0; j < width; ++j)
+        {
+            id += to_string(construction_area[i][j]);
+        }
+    }
+    return id;
 }

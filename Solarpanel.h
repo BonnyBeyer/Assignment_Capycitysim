@@ -8,7 +8,7 @@ class Solarpanel: public Building
 private:
     /* data */
 public:
-    Solarpanel(int l, int w, int *p, ConstructionArea Area);
+    Solarpanel(int l, int w, int *p, ConstructionArea* Area);
     ~Solarpanel();
 };
 #endif

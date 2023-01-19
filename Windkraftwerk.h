@@ -8,7 +8,7 @@ class Windkraftwerk: public Building
 private:
     /* data */
 public:
-    Windkraftwerk(int l, int w, int *p, ConstructionArea Area);
+    Windkraftwerk(int l, int w, int *p, ConstructionArea* Area);
     ~Windkraftwerk();
 };
 #endif
