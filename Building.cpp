@@ -1,40 +1,48 @@
 #include <stdio.h>
 #include <iostream>
+#include "map"
 // #include "CapyCitySim.cpp"
 //  #include "ConstructionArea.h"
 //  #include "Material.h"
 #include "Building.h"
 
 int Building::anzahl_b = 0;
+double Building::total = 0;
 
-Building::Building(int l, int w, int *p, ConstructionArea Area, Material *_materials)
-{ // cout << "in constructor!!!"<<endl;
+Building::Building(int l, int w, int *p, ConstructionArea Area)
+{ 
     bool possibility = built_posibillity(Area, p, w, l);
 
-    // cout << "Possibility: " << possibility << endl;
+    Holz *holz = new Holz();
+
+    
+
+    Metall *metall = new Metall();
+
+    
+
+    Kunststoff *kunststoff = new Kunststoff();
+
+ 
+
     if (possibility == true)
     {
         anzahl_b++;
         length = l;
         width = w;
         position = p;
-        // cout << "before loop";
+      
         for (int i = p[0]; i < length + p[0]; i++)
         {
             for (int j = p[1]; j < width + p[1]; j++)
             {
                 Area.construction_area[i][j] = anzahl_b;
-                // cout << Area.construction_area[i][j];
+              
             }
-            // cout << endl;
+         
         }
 
-        for (int i = 0; i < sizeof(_materials); i++)
-        {
-            materials[i] = _materials[i];
-        }
-        anzahl_of_material = sizeof(_materials);
-        // cout << Area.construction_area<<endl;
+       
     }
     else
     {
@@ -52,23 +60,15 @@ Building::~Building()
 
 bool Building::built_posibillity(ConstructionArea Area, int *p, int w, int l)
 {
-    // cout << "posibility" << endl;
+    
 
     bool x = true;
     for (int i = p[0]; i < p[0] + l; i++)
     {
-        // cout << "value of i " << i << endl;
+        
         for (int j = p[1]; j < p[1] + w; j++)
         {
-            // cout << "value of j " << j << endl;
-            // cout << Area.construction_area[i][j] << endl;
-            // if (Area.get_construction_area_value(i,j) == 0)
-            //     x = true;
-            // else
-            // {
-            //     x = false;
-            //     return x;
-            // }
+            
             if (Area.construction_area[i][j] == 0)
                 x = true;
             else
@@ -96,14 +96,8 @@ string Building::tostring()
 
 string Building::string_materials()
 {
-    string s = " ";
-    string name = " ";
-    for (int i = 0; i < anzahl_of_material; i++)
-    {
+     string s = "\n";
 
-        name = materials[i].get_material_name();
-        s += " " + name;
-    }
     return s;
 }
 
@@ -111,26 +105,60 @@ double Building::total_price_one_building()
 {
 
     double prc;
-    for (int i = 0; i < anzahl_of_material; i++)
-    {
+    double price_m;
+    
+    map<Material *, int>::iterator itr;
 
-        prc += materials[i].get_material_price();
+    Material *material;
+    int count = 0;
+    for (itr = materials.begin(); itr != materials.end(); ++itr)
+    {
+        material = itr->first;
+        count = itr->second;
+        //cout << "material in loop: " <<material <<endl;
+        price_m += material->get_material_price() * count;
     }
-    prc += price;
+
+    prc = price_m + price;
     return prc;
 }
 
 void Building::print_buildings()
 {
-    cout << "Label: " << label << endl
-         << "Basic Price: " << price << endl
-         << "Total Price: " << total_price_one_building() << endl
-         << "Length: " << length << endl
-         << "Width: " << width << endl
-         << "Position: " << position[0]
-         << " and " << position[1] << endl
-         << "Materials: " + string_materials() << endl;
+    // double prc=0;
+    // prc+=this->total_price_one_building();
+    double ttt = this->total_price_one_building();
+    // std::cout << "In print_building() " << endl;
+    std::cout << "Label: " << this->get_label() << endl
+              << "Basic Price: " << this->get_price() << endl
+            //   << "Total Price: " << prc<< endl
+            //   << "Total Price: " <<this->total_price_one_building() << endl
+              << "Length: " << this->get_length() << endl
+              << "Width: " << this->get_width() << endl
+              << "Position: " << this->get_row()
+              << " and " << this->get_column() << endl;
+    //   << "Materials: " + this->string_materials() << endl
+
+    map<Material *, int>::iterator itr;
+    Material *material;
+    int count = 0;
+    for (itr = materials.begin(); itr != materials.end(); ++itr)
+    {
+        material = itr->first;
+        count = itr->second;
+        cout << material->get_material_name() << ": " << count << endl;
+    }
+    cout << "Total Price Building: " <<this->total_price_one_building() << endl;
+    for (itr = materials.begin(); itr != materials.end(); ++itr)
+    {
+        material = itr->first;
+        count = itr->second;
+        // cout << material->get_material_name() << ": " << count << endl;
+    }
+    total += this->total_price_one_building();
+    std::cout << "Total so far: " << total << endl;
 }
+
 
 // setter
 void Building::set_label(string _label)
@@ -158,54 +186,61 @@ void Building::set_column(int _column)
 
     position[1] = _column;
 }
-void Building::set_material_value(int i, Material material)
-{
-    materials[i] = material;
-}
+
 
 // getter
 int Building::get_length()
 {
+
     return length;
 }
 int Building::get_width()
 {
+
     return width;
 }
 int Building::get_row()
 {
-    // cout << "position" << endl;
+
+    
     int row = position[0];
 
-    // cout << "row" << endl;
     return row;
 }
 int Building::get_column()
 {
-    // cout << "position" << endl;
+   
     int column = position[1];
 
-    // cout << "column" << endl;
     return column;
 }
 
 string Building::get_label()
 {
+   
     return label;
 }
 double Building::get_price()
 {
+    
     return price;
 }
-Material Building::get_material_value(int i)
+
+
+void Building::insert_material(string key)
 {
 
-    Material m = materials[i];
-    return m;
+    if (key == "Metall")
+    {
+        materials[&metall]++;
+    }
+    if (key == "Kunststoff")
+    {
+        materials[&kunststoff]++;
+    }
+    if (key == "Holz")
+    {
+        materials[&holz]++;
+    }
 }
 
-void Building::add_material(Material material)
-{
-    materials[anzahl_of_material] = material;
-    anzahl_of_material++;
-}

@@ -6,7 +6,7 @@
 #include "Material.h"
 //#include "CapyCitySim.cpp"
 
-Solarpanel::Solarpanel(int l, int w, int *p, ConstructionArea Area, Material *_materials):Building(l,w,p,Area,_materials)
+Solarpanel::Solarpanel(int l, int w, int *p, ConstructionArea Area):Building(l,w,p,Area)
 {
     label = to_string(anzahl_b)+") Solarpanel";
     price = 1000;

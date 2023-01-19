@@ -4,8 +4,9 @@
 
 Kunststoff::Kunststoff(/* args */)
 {
-     material_price =500;
-    material_name ="Kunststoff";
+     Material::material_price =500;
+    Material::material_name ="Kunststoff";
+    Material::id=3;
 }
 
 Kunststoff::~Kunststoff()

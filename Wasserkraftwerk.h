@@ -9,7 +9,7 @@ class Wasserkraftwerk: public Building
 private:
     /* data */
 public:
-    Wasserkraftwerk(int l, int w, int *p, ConstructionArea Area, Material *_materials);
+    Wasserkraftwerk(int l, int w, int *p, ConstructionArea Area);
     ~Wasserkraftwerk();
 };
 #endif

@@ -1,7 +1,10 @@
 #ifndef _BUILDING_H_
 #define _BUILDING_H_
+#include "map"
 #include "ConstructionArea.h"
-#include "Material.h"
+#include "Holz.h"
+#include "Metall.h"
+#include "Kunststoff.h"
 
 #include <string>
 
@@ -13,12 +16,21 @@ protected:
     int length;
     int width;
     int *position;
-    Material materials[100];
-    int anzahl_of_material = 0;
+    map<Material*, int> materials;
+    Holz holz;
+    Metall metall;
+    Kunststoff kunststoff;
+
+    
+    
+
+    // int anzahl_of_material = 0;
 
 public:
+     
     static int anzahl_b;
-    Building(int l, int w, int *p, ConstructionArea Area, Material *_materials);
+    static double total;
+    Building(int l, int w, int *p, ConstructionArea Area);
     Building();
     ~Building();
 
@@ -28,7 +40,9 @@ public:
     void set_width(int _width);
     void set_row(int _row);
     void set_column(int _column);
-    void set_material_value(int i, Material material);
+    // void set_material_value(int i, Material material);
+
+  
 
     std::string get_label();
     double get_price();
@@ -36,13 +50,20 @@ public:
     int get_width();
     int get_row();
     int get_column();
-    Material get_material_value(int i);
+
+  
+   
 
     bool built_posibillity(ConstructionArea Area, int *p, int w, int l);
     std::string tostring();
     std::string string_materials();
     void print_buildings();
-    void add_material(Material material);
+    void insert_material(string key);
     double total_price_one_building();
+
+  
+ 
 };
 #endif
+
+

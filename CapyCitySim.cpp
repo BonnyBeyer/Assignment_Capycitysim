@@ -1,15 +1,9 @@
 #include <iostream>
 #include <istream>
 #include "CapyCitySim.h"
+#include "ConstructionArea.h"
 
 
-CapyCitySim::CapyCitySim(Building *_buildings)
-{
-    for (int i = 0; i < sizeof(_buildings); i++)
-    {
-        buildings[i] = _buildings[i];
-    }
-}
 
 CapyCitySim::CapyCitySim()
 {
@@ -19,28 +13,43 @@ CapyCitySim::~CapyCitySim()
 {
 }
 
-// int CapyCitySim::get_anzahl_buildings(){
-//     return anzahl_buildings;
-// }
 
-void CapyCitySim::add(Building _building)
+void CapyCitySim::add(Building *_building)
 {
+    
     buildings[anzahl_buildings] = _building;
     anzahl_buildings++;
-    totalprice+=_building.total_price_one_building();
+  
 }
+
 
 void CapyCitySim::print()
 {
+    double total;
+    double prc;
 
-   for (int i = 0; i < Building::anzahl_b; i++)
+    for (int i = 0; i < Building::anzahl_b; i++)
     {
-        buildings[i].print_buildings();
-        cout<< endl << endl; 
+        
+        buildings[i]->print_buildings();
+      
+        std::cout << endl
+                  << endl;
+       
     }
-     cout << "TotalPrice of all buildings:"<<totalprice<<endl;
+
+    Building::total=0;
+    
 }
- int CapyCitySim::get_total_price(){
+
+
+int CapyCitySim::get_total_price()
+{
     return totalprice;
- }
+}
+Building *CapyCitySim::get_building(int index)
+{
+   
+    return buildings[index];
+}
 
